@@ -4,14 +4,14 @@ import { Main } from "./Main";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1Cq8tXjKS9F7TnwEcji0w1ELbZf39FjE",
-  authDomain: "mafia-avatars.firebaseapp.com",
+  apiKey: "AIzaSyCvajgN7uLmPhc5UGFSP2oKSAz7u3uikAI",
+  authDomain: "blackfish-avatars.firebaseapp.com",
+  projectId: "blackfish-avatars",
+  storageBucket: "blackfish-avatars.firebasestorage.app",
+  messagingSenderId: "464899679631",
+  appId: "1:464899679631:web:92a52232bd9b1f2a6597fa",
   databaseURL:
-    "https://mafia-avatars-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "mafia-avatars",
-  storageBucket: "mafia-avatars.appspot.com",
-  messagingSenderId: "150543299586",
-  appId: "1:150543299586:web:ce638b296399b83430e31b",
+    "https://blackfish-avatars-default-rtdb.europe-west1.firebasedatabase.app",
 };
 
 initializeApp(firebaseConfig);
