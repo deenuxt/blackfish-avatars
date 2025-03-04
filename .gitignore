@@ -68,3 +68,7 @@ node_modules/
 **/.DS_Store
 
 public
+
+mockData/
+
+yarn.lock
